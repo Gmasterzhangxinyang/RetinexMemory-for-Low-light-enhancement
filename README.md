@@ -1,4 +1,4 @@
-# RetinexMemory: Multi-Granularity Memory for Low-Light Image Enhancement
+# Enhancing Low-Light Image Quality: A Multi-Granularity Memory Approach with RetinexMemory
 
 <div align="center">
 <p align="center"> <img src="figure/logo.png" width="200px"> </p>

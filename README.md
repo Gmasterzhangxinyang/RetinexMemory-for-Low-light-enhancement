@@ -10,10 +10,11 @@
 This repository contains the official implementation of **RetinexMemory**, a memory-augmented Retinex-based Transformer for **Low-Light Image Enhancement (LLIE)**.  
 Our method introduces **multi-granularity memory branches** (part, instance, semantic) into Retinexformer, achieving improved image quality under challenging low-light conditions.  
 
-We provide:  
-- Training and testing code  
-- Pre-trained models for LOL-v1 and LOL-v2 datasets  
-- Reproduction instructions for reported results (PSNR / SSIM / RMSE)  
+We provide:
+- Training and testing code
+- Configuration files for LOL-v1 and LOL-v2 datasets
+- Reproduction instructions for reported results (PSNR / SSIM / RMSE)
+
 
 ---
 
@@ -113,6 +114,12 @@ python3 basicsr/train.py --opt Options/RetinexMemory_LOLv2_syn.yml
 Training details:  
 - Iterations: **100,000**  
 - Batch size, LR schedule, and other settings are specified in the `.yml` configs under `Options/`.  
-- Mixed precision (`use_amp`) is supported for faster training and lower GPU memory usage.  
+- Mixed precision (`use_amp`) is supported for faster training and lower GPU memory usage.
+  
+📌 **Note**:  
+Due to differences in hardware configurations, GPU models, and training environments, 
+the reproduced numerical results (e.g., PSNR / SSIM / RMSE) may slightly differ from those reported in the paper. 
+Nevertheless, the overall performance trends and qualitative improvements remain consistent.
+ 
 
 

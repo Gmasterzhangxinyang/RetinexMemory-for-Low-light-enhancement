@@ -91,7 +91,7 @@ python3 Enhancement/test_from_dataset.py --opt Options/RetinexMemory_LOLv2_syn.y
 ```
 
 
-📌 **Note**: You only need to change the dataset path in `test.py` to reproduce the results.  
+📌 **Note**: You only need to change the dataset path in `test.py` to reproduce the evaluation process.
 The script automatically computes **PSNR / SSIM / RMSE**.  
 
 
